@@ -1,0 +1,249 @@
+                /*!
+ * Start Bootstrap - Landing Page v5.0.9 (https://startbootstrap.com/theme/landing-page)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+                
+                body {
+                    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif
+                }
+                
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                h6 {
+                    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                    font-weight: 400
+                }
+                
+                .form-box {
+                    width: 420px;
+                    height: 575px;
+                    position: relative;
+                    margin: 6% auto;
+                    background: #00000057;
+                    padding: 5px;
+                    left: 400px;
+                    bottom: 600px;
+                    border-radius: 6%;
+                    overflow: hidden;
+                }
+                
+                .button-boxxl {
+                    width: 220px;
+                    margin: 35px auto;
+                    position: relative;
+                    box-shadow: rgb(255, 255, 255);
+                    border-radius: 10%;
+                }
+                
+                .social-icons img {
+                    width: 44px;
+                    margin: 0 10px;
+                    cursor: pointer;
+                }
+                
+                .input-group {
+                    top: 108px;
+                    position: absolute;
+                    width: 220px;
+                    transition: 5s;
+                }
+                
+                .input-field {
+                    background-color: rgba(255, 255, 255, 0);
+                    width: 180px;
+                    padding: 10px;
+                    margin: 5px 0;
+                    border-left: 0;
+                    border-top: 0;
+                    border-right: 0;
+                    border-bottom: 1px solid rgb(58, 0, 0);
+                }
+                
+                .input-field,
+                text {
+                    color: rgb(255, 255, 255)
+                }
+                
+                .check-box {
+                    margin: 30px 10px 30px 0;
+                }
+                
+                .span {
+                    color: rgb(58, 0, 0);
+                    font-size: 12px;
+                    bottom: 68px;
+                    position: absolute;
+                }
+                
+                .submit-btn {
+                    background: rgb(58, 0, 0);
+                    width: 85%;
+                    padding: 10px 30px;
+                    cursor: pointer;
+                    display: ruby;
+                    margin: auto;
+                    border: 0px;
+                    outline: none;
+                    border-radius: 40px;
+                    bottom: 68px;
+                }
+                
+                #login {
+                    left: 50px;
+                }
+                
+                #signup {
+                    left: 450px
+                }
+                
+                #btn {
+                    top: 0px;
+                    left: 0px;
+                    position: absolute;
+                    width: 110px;
+                    height: 100%;
+                    background: rgb(255, 255, 255);
+                    border-radius: 30px;
+                    transition: .5s;
+                }
+                
+                .logo {
+                    padding: 0px 0 0 5px;
+                    width: 170px;
+                    height: auto;
+                }
+                
+                .navbar navbar-light bg-light static-top {
+                    background-color: rgb(175, 1, 1);
+                }
+                
+                header.masthead {
+                    position: relative;
+                    background-color: #000000;
+                    background-repeat: no-repeat;
+                    background: url(wp2.jpg);
+                    background-size: cover;
+                    background-position: center center;
+                    background-attachment: fixed;
+                    padding-top: 1;
+                    padding-bottom: 1;
+                    height: 1080;
+                }
+                
+                header.masthead .overlay {
+                    position: absolute;
+                    background-color: #212529;
+                    height: 100%;
+                    width: 100%;
+                    top: 0;
+                    left: 0;
+                    opacity: .3
+                }
+                
+                header.masthead h1 {
+                    font-size: 2rem
+                }
+                
+                @media (min-width:768px) {
+                    header.masthead {
+                        padding-top: 12rem;
+                        padding-bottom: 12rem
+                    }
+                    header.masthead h1 {
+                        font-size: 3rem
+                    }
+                }
+                
+                .showcase .showcase-text {
+                    padding: 3rem
+                }
+                
+                .showcase .showcase-img {
+                    min-height: 30rem;
+                    background-size: cover
+                }
+                
+                @media (min-width:768px) {
+                    .showcase .showcase-text {
+                        padding: 7rem
+                    }
+                }
+                
+                .lead mb-0 {
+                    text-decoration-color: rgb(58, 0, 0);
+                }
+                
+                .features-icons {
+                    padding-top: 7rem;
+                    padding-bottom: 7rem
+                }
+                
+                .features-icons .features-icons-item {
+                    max-width: 20rem
+                }
+                
+                .features-icons .features-icons-item .features-icons-icon {
+                    height: 7rem
+                }
+                
+                .features-icons .features-icons-item .features-icons-icon i {
+                    font-size: 4.5rem
+                }
+                
+                .features-icons .features-icons-item:hover .features-icons-icon i {
+                    font-size: 5rem;
+                    color: #000;
+                }
+                
+                .testimonials {
+                    padding-top: 7rem;
+                    padding-bottom: 7rem
+                }
+                
+                .testimonials .testimonial-item {
+                    max-width: 18rem
+                }
+                
+                .testimonials .testimonial-item img {
+                    max-width: 12rem;
+                    box-shadow: 0 5px 5px 0 #adb5bd
+                }
+                
+                .call-to-action {
+                    position: relative;
+                    background-color: #343a40;
+                    background: url(wp2.jpg) no-repeat center center;
+                    background-size: cover;
+                    padding-top: 7rem;
+                    padding-bottom: 7rem
+                }
+                
+                .call-to-action .overlay {
+                    position: absolute;
+                    background-color: #212529;
+                    height: 100%;
+                    width: 100%;
+                    top: 0;
+                    left: 0;
+                    opacity: .3
+                }
+                
+                footer.footer {
+                    padding-top: 4rem;
+                    padding-bottom: 4rem;
+                }
+                /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+                
+                @media screen and (max-width: 1000px) {
+                    .form-box,
+                    .input-field,
+                    input[type=submit] {
+                        width: 100%;
+                        left: 0px;
+                        bottom: 10px;
+                    }
+                }
